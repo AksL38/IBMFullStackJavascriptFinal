@@ -3,33 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Travel Anywhere!</title>
+    <title>Travel Anywhere</title>
     <link rel="stylesheet" href="./travel_recommendation.css" />
   </head>
   <body>
-    <nav>
+    <nav
+      style="
+        background-color: #d9d6e6;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        gap: 30%;
+      "
+    >
       <h1>Travel Anywhere</h1>
       <ul>
-        <li><a href="./travel_recommendation.html" id="home">Home </a></li>
+        <li>
+          <a href="./travel_recommendation.html" id="home">Home </a>
+        </li>
         <li><a href="./about_us.html" id="home">About Us </a></li>
         <li><a href="./contact_us.html" id="contact">Contact Us </a></li>
-        <li>
-          <input
-            type="text"
-            id="keywordInput"
-            placeholder="Enter a destination or keyword"
-          />
-        </li>
-        <li><button id="btnSearch">Search</button></li>
-        <li><button id="btnClear">Clear</button></li>
       </ul>
     </nav>
     <section>
-      <div style="position: relative; top: 150px; left: 200px">
-        <div style="font-size: 5rem; font-weight: bold; color: #e1dee7">
-          Explore <br />
-          Dream <br />
-          Destination
+      <div
+        style="
+          position: relative;
+          top: 50px;
+          left: 200px;
+          display: flex;
+          flex-direction: column;
+        "
+      >
+        <div style="font-size: 7rem; font-weight: bold; color: #e1dee7">
+          About Us
         </div>
         <div style="font-size: 1.5rem; font-weight: bolder; color: #161516">
           It encourages exploration of unfamiliar <br />
