@@ -27,10 +27,8 @@ nav a {
   font-weight: bold;
 }
 
-/* Basic CSS for the form elements */
 body {
   font-family: Arial, sans-serif;
-  /* margin: 20px; */
 }
 
 section {
@@ -53,12 +51,6 @@ label {
 }
 
 input[type='text'],
-input[type='number'],
-select {
-  width: 200px;
-  padding: 5px;
-}
-
 button {
   padding: 7px 15px;
   background-color: #4caf50;
@@ -71,34 +63,10 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Basic CSS for the report section */
-h2 {
-  margin-top: 30px;
-}
-
 #btnClear {
   background-color: rgb(185, 37, 37);
 }
 
 #btnClear:hover {
   background-color: rgb(160, 26, 9);
-}
-
-#report,
-#result {
-  padding: 10px;
-  max-width: 400px;
-  word-wrap: break-word;
-}
-#result {
-  height: 400px;
-  width: 500px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
-}
-#result img {
-  width: 200px;
-  height: 100px;
 }
