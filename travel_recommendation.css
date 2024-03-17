@@ -32,7 +32,7 @@ body {
 }
 
 section {
-  background-image: url('./travel-concept-with-landmarks.jpg');
+  background-image: url('../travel-concept-with-landmarks.jpg');
   width: 100vw;
   height: 100vh;
 }
@@ -50,7 +50,10 @@ label {
   width: 100px;
 }
 
-input[type='text'],
+input {
+  padding: 7px 15px;
+  cursor: pointer;
+}
 button {
   padding: 7px 15px;
   background-color: #4caf50;
