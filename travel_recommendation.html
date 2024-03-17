@@ -21,11 +21,15 @@
             placeholder="Enter a destination or keyword"
           />
         </li>
-        <li><button id="btnSearch">Search</button></li>
-        <li><button id="btnClear">Clear</button></li>
+        <li>
+          <button id="btnSearch" onclick="generateSearchResults()">
+            Search
+          </button>
+        </li>
+        <li><button id="btnClear" onclick="clearSearch()">Clear</button></li>
       </ul>
     </nav>
-    <section>
+    <section style="display: flex; justify-content: space-between">
       <div style="position: relative; top: 150px; left: 200px">
         <div style="font-size: 5rem; font-weight: bold; color: #e1dee7">
           Explore <br />
@@ -40,6 +44,19 @@
           ignites the sense of wonder
         </div>
       </div>
+      <div
+        style="
+          position: relative;
+          top: 100px;
+          right: 50px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          z-index: 10;
+        "
+        id="searchResults"
+        hidden
+      ></div>
     </section>
   </body>
 </html>
